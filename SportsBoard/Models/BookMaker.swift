@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Bookmaker: Codable {
+struct Bookmaker: Codable, Equatable {
     
     let title: String
     

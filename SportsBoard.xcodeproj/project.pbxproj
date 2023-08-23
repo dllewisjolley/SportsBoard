@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002068CF2A703AD90019D2AA /* SportFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002068CE2A703AD90019D2AA /* SportFormula.swift */; };
+		002068D12A703B8B0019D2AA /* SportEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002068D02A703B8B0019D2AA /* SportEnum.swift */; };
 		00597AFB2A6DB521004D0AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00597AFA2A6DB521004D0AD2 /* AppDelegate.swift */; };
 		00597AFD2A6DB521004D0AD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00597AFC2A6DB521004D0AD2 /* SceneDelegate.swift */; };
 		00597B022A6DB521004D0AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00597B002A6DB521004D0AD2 /* Main.storyboard */; };
@@ -20,9 +22,16 @@
 		00597B1E2A6DC434004D0AD2 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00597B1D2A6DC434004D0AD2 /* HTTPMethod.swift */; };
 		00597B202A6DC7DC004D0AD2 /* GameCardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00597B1F2A6DC7DC004D0AD2 /* GameCardCollectionViewController.swift */; };
 		00597B232A6DC893004D0AD2 /* GameCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00597B222A6DC893004D0AD2 /* GameCardCollectionViewCell.swift */; };
+		00597B252A6F1038004D0AD2 /* GameCardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00597B242A6F1038004D0AD2 /* GameCardDetailViewController.swift */; };
+		005A19142A712F13004B1DCA /* ScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A19132A712F13004B1DCA /* ScoreCard.swift */; };
+		005A19162A712FC4004B1DCA /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A19152A712FC4004B1DCA /* Score.swift */; };
+		005A19182A7135E5004B1DCA /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A19172A7135E5004B1DCA /* ScoresViewController.swift */; };
+		005A191A2A713627004B1DCA /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A19192A713627004B1DCA /* ScoreTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002068CE2A703AD90019D2AA /* SportFormula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportFormula.swift; sourceTree = "<group>"; };
+		002068D02A703B8B0019D2AA /* SportEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEnum.swift; sourceTree = "<group>"; };
 		00597AF72A6DB521004D0AD2 /* SportsBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00597AFA2A6DB521004D0AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00597AFC2A6DB521004D0AD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,11 @@
 		00597B1D2A6DC434004D0AD2 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		00597B1F2A6DC7DC004D0AD2 /* GameCardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardCollectionViewController.swift; sourceTree = "<group>"; };
 		00597B222A6DC893004D0AD2 /* GameCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		00597B242A6F1038004D0AD2 /* GameCardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardDetailViewController.swift; sourceTree = "<group>"; };
+		005A19132A712F13004B1DCA /* ScoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCard.swift; sourceTree = "<group>"; };
+		005A19152A712FC4004B1DCA /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		005A19172A7135E5004B1DCA /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		005A19192A713627004B1DCA /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,9 @@
 				00597B172A6DBEC8004D0AD2 /* Outcome.swift */,
 				00597B192A6DBF91004D0AD2 /* Market.swift */,
 				00597B1D2A6DC434004D0AD2 /* HTTPMethod.swift */,
+				002068D02A703B8B0019D2AA /* SportEnum.swift */,
+				005A19132A712F13004B1DCA /* ScoreCard.swift */,
+				005A19152A712FC4004B1DCA /* Score.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				00597B1F2A6DC7DC004D0AD2 /* GameCardCollectionViewController.swift */,
+				00597B242A6F1038004D0AD2 /* GameCardDetailViewController.swift */,
+				005A19172A7135E5004B1DCA /* ScoresViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -115,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				00597B1B2A6DC06D004D0AD2 /* SportController.swift */,
+				002068CE2A703AD90019D2AA /* SportFormula.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -131,6 +151,7 @@
 		00597B212A6DC85B004D0AD2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				005A19192A713627004B1DCA /* ScoreTableViewCell.swift */,
 				00597B222A6DC893004D0AD2 /* GameCardCollectionViewCell.swift */,
 			);
 			path = Views;
@@ -210,13 +231,20 @@
 				00597B232A6DC893004D0AD2 /* GameCardCollectionViewCell.swift in Sources */,
 				00597AFB2A6DB521004D0AD2 /* AppDelegate.swift in Sources */,
 				00597B182A6DBEC8004D0AD2 /* Outcome.swift in Sources */,
+				005A19182A7135E5004B1DCA /* ScoresViewController.swift in Sources */,
 				00597B162A6DB994004D0AD2 /* BookMaker.swift in Sources */,
+				005A19162A712FC4004B1DCA /* Score.swift in Sources */,
+				005A191A2A713627004B1DCA /* ScoreTableViewCell.swift in Sources */,
 				00597B202A6DC7DC004D0AD2 /* GameCardCollectionViewController.swift in Sources */,
+				002068D12A703B8B0019D2AA /* SportEnum.swift in Sources */,
+				00597B252A6F1038004D0AD2 /* GameCardDetailViewController.swift in Sources */,
 				00597B142A6DB80F004D0AD2 /* GameCard.swift in Sources */,
 				00597B1E2A6DC434004D0AD2 /* HTTPMethod.swift in Sources */,
 				00597AFD2A6DB521004D0AD2 /* SceneDelegate.swift in Sources */,
 				00597B1C2A6DC06D004D0AD2 /* SportController.swift in Sources */,
 				00597B1A2A6DBF91004D0AD2 /* Market.swift in Sources */,
+				005A19142A712F13004B1DCA /* ScoreCard.swift in Sources */,
+				002068CF2A703AD90019D2AA /* SportFormula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,8 +23,12 @@ class GameCardCollectionViewController: UICollectionViewController {
                 print(error)
                 return
             }
-            
-            print("\(self.sportsController.gameCards) are all here.")
+            for game in self.sportsController.gameCards {
+                if game.sportTitle.contains("MLB"){
+                    print("\(game.awayTeam) is playing \(game.homeTeam)" )
+                }
+            }
+          //  print("\(self.sportsController.gameCards) are all here.")
             
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
@@ -46,6 +50,16 @@ class GameCardCollectionViewController: UICollectionViewController {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
+        if segue.identifier == "toGameCardDetail" {
+            guard let gameCardDetailVC = segue.destination as? GameCardDetailViewController,
+                  let indexPath = collectionView.indexPathsForSelectedItems?.first else { return }
+            
+            let gameCard = sportsController.gameCards[indexPath.item]
+            
+            gameCardDetailVC.gameCard = gameCard
+            
+            gameCardDetailVC.sportController = sportsController
+        }
         
     }
     

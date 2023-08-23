@@ -7,13 +7,17 @@
 
 import Foundation
 
-struct GameCard: Codable {
+struct GameCard: Codable, Equatable {
+  
+    let sportKey: String
     
     let sportTitle: String
     
     let homeTeam: String
     
     let awayTeam: String
+    
+    
     
     let bookmakers: [Bookmaker]
 }

@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Market: Codable {
+struct Market: Codable, Equatable {
     
     let key: String
     
-  //  let outcomes: [Outcome]
+    let outcomes: [Outcome]
 }

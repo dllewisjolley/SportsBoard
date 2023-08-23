@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Outcome: Codable {
+struct Outcome: Codable, Equatable {
     
     let name: String
-    let odds: String
+    let odds: Int
     
     enum CodingKeys: String, CodingKey {
         
